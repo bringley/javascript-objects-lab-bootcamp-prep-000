@@ -9,5 +9,5 @@ var recipes = {}
 
 //same as above but return obj clone not orig obj
 function updateObjectWithKeyAndValue(object, key, value) {
-  
+  var newObject = object.assign()
 }
