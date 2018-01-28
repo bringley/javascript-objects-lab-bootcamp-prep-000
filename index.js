@@ -13,3 +13,10 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
   return object
 }
+
+//write function that takes object and key args and returns object clone with deleted key
+function deleteFromObjectByKey(object, key) {
+  var newObject = Object.assign({}, object)
+  delete newObject[key]
+  return newObject
+}
