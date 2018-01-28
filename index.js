@@ -6,3 +6,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
   return object
 }
+
+//same as above but return obj clone not orig obj
+function updateObjectWithKeyAndValue
