@@ -20,3 +20,9 @@ function deleteFromObjectByKey(object, key) {
   delete newObject[key]
   return newObject
 }
+
+//write function that takes object and key args and returns destructed object with deleted key
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key]
+  return object
+}
